@@ -1,0 +1,2 @@
+# Web_ohjelmistoasiantuntija_kurssi
+Exercises from Web-ohjelmistoasiantuntija course
