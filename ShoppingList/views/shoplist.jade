@@ -1,0 +1,15 @@
+extends layout
+append head
+  script(src='/login/shoplist.js')
+block content
+  h1 Welcome
+  section
+    input(id='item',type="text",placeholder='add your item')
+    br
+    input(type='button',value='Add Item', id='addBtn')
+  ul(id='mylist')
+    each listItem in data
+      li
+        a(href="#") #{listItem}
+  input(type='button',value='Save Shopping List', id='saveBtn')  
+    
