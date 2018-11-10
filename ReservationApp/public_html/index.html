@@ -1,0 +1,25 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="my_style.css" type="text/css" rel="stylesheet"/>
+        <!--<script src="scripts.js"></script>-->
+    </head>
+    <body>
+        <h3>You have to log in to our service</h3>
+        <section class="login">
+            <form action="/login" method="POST">
+                <input type="text" name="first" required/><br/>
+                <input type="text" name="last" required/><br/>
+                <input type="submit" value="Login"/><br/>
+            </form>
+            <a href="register.html">Not registered yet? Register here.</a>
+            <p id="resp_status" style="color:red"></p>
+        </section>
+    </body>
+</html>

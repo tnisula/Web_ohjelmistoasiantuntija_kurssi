@@ -1,0 +1,72 @@
+.login{
+   margin: auto;
+   width: 200px;
+}
+h3{
+    text-align: center;
+}
+
+input{
+    margin:12px;
+}
+
+header{
+    text-align: center;
+    color: blue;
+}
+
+nav{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+form{
+    margin: auto;
+    width:200px;
+}
+
+#weather_area{
+    margin: auto;
+    margin-top: 20px;
+    display: inline-block;
+    width: 280px;
+    border: 2px outset #0b97c4;
+    color:white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#inside{
+    margin-left: 10px;
+}
+
+#my_map{
+    
+    float: left;
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+p{
+    margin-left: 10px;
+}
+
+img{
+    float: right;
+    border: 2px outset #800;
+    margin-right: 50px;
+    margin-top: 100px;
+    visibility: hidden;
+}
+
+#wrapper{
+  width: 80%;
+  margin: auto;
+  max-width: 640px;
+  min-width: 640px;
+}
+
