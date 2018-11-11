@@ -1,0 +1,43 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Welcome to Tweet</title>
+        <link href="styles.css" type="text/css" rel='stylesheet'/>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div id="tweetintausta">
+            <header>
+                <h1>Welcome to tweet</h1>
+            </header>
+            <nav>
+                <a href="/tweet_page">Read Tweets</a>
+            </nav>
+            <form method="POST" action="/new_tweet">
+                <input type="hidden" name="userid" value="0"/><br/>
+                <input type="text" id="username" name="username" placeholder="Write your name" required/><br/><br/>
+                <textarea id="mytextarea" name="body" placeholder="Write your tweet"></textarea><br/><br/>
+                <input type="submit" value="Send Tweet" class="btnclass"/>
+            </form>
+        </div>
+        
+    <!-- 
+        <header>
+            <h1>Welcome to tweet</h1>
+        </header>
+        <nav>
+            <a href="/tweet_page">Read Tweets</a>
+        </nav>
+        <form method="POST" action="/new_tweet">
+            <input type="hidden" name="userid" value="0"/><br/>
+            <input type="text" name="username" placeholder="Write your name" required/><br/><br/>
+            <textarea name="body" placeholder="Write your tweet"></textarea><br/><br/>
+            <input type="submit" value="Send Tweet"/>
+        </form> 
+    -->
+    </body>
+</html>

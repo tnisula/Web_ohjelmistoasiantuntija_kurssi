@@ -1,0 +1,70 @@
+/* 
+    Document   : styles
+    Created on : 14.10.2013, 14:33:02
+    Author     : opiframe
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+form{
+    margin: auto;
+    width: 200px;
+ }
+header{
+    text-align: center;
+}
+nav{
+    text-align: center;
+}
+section{
+    margin-left: 22%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 1px #C0C0C0 solid;
+    background-color: rgb(48, 127, 247);
+    /*background-color: rgb(91, 164, 231)*/
+    font-family: verdana,arial;
+    font-size:14px;
+    color:#130b0b; 
+}
+#tweets{
+    margin-top: 10px;
+}
+#tweetintausta {
+    width:50%; 
+    border: 10px #C0C0C0 solid;
+    background-color: rgb(89, 230, 240);
+    margin:10px;
+    padding:10px;
+    clear:both;
+    font-family: verdana,arial;
+    font-size:14px;
+    color:#130b0b; 
+}
+#username {
+    width: 200px;
+    height: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+#mytextarea{
+    width: 200px;
+    height: 150px;
+    /* border-radius: 10px; */
+    padding-left: 5px;
+}
+#query{
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.btnclass {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #098d2a;
+    margin-right: 15px;
+}
