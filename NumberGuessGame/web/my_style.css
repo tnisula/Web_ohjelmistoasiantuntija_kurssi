@@ -1,0 +1,13 @@
+#guessForm{
+    margin: auto;
+    width: 350px;
+}
+
+.btn{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+input{
+    margin-top: 10px;
+}
